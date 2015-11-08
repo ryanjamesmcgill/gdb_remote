@@ -1,0 +1,16 @@
+// This file overrides the built-in C++ (GDB ARM).run runner
+// For more information see http://docs.c9.io:8080/#!/api/run-method-run
+{
+  "cmd": [
+    "sh",
+    "-c",
+    "/usr/bin/g++ -g $file_name -o $file_base_name && ~/.c9/plugins/gdb_remote/sshserver.js $file_path $file_base_name $ip"
+  ],
+  "info": "Compiling $file ...",
+  "debugport": 15470,
+  "debugger": "gdb_remote",
+  "executable": "$file_path/$file_base_name",
+  "maxdepth": 50,
+  "env": {},
+  "selector": "^.*\\.cpp$"
+}

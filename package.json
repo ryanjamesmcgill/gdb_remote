@@ -1,0 +1,21 @@
+{
+  "name": "gdb_remote",
+  "description": "Debugger and compiler for embedded linux develoment.",
+  "version": "0.0.1",
+  "author": "",
+  "contributors": [
+    {
+      "name": "Ryan McGill",
+      "email": "ryanjamesmcgill@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "plugins": {
+    "gdb_remote": {}
+  },
+  "categories": ["miscellaneous"],
+  "licenses": []
+}
