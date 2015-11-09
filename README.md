@@ -1,3 +1,5 @@
-Cloud9 IDE plugin for remote debugging. Ideal for embedded linux development on devices such as the Raspberry Pi or Beagle Bone. 
+<a href="https://get.c9.io/">Cloud9 IDE</a> plugin for remote debugging. Ideal for embedded linux development on devices such as the Raspberry Pi or Beagle Bone. 
 
-Enter the SSH credintials into <b>configure.js</b> file and when you run the debugger, then system will copy over your binary executable to your target system, then start your debugger gui directly on the target system.
+Currently in development stage with <a href="https://cloud9-sdk.readme.io/v0.1/docs">Cloud9 SDK</a> 
+
+Enter the SSH credintials into the <b>configure.js</b> file. When you run the debugger, then system will copy over your binary executable to your target system, then start the cloud9 debugger gui directly on the target system.
