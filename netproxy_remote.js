@@ -1022,7 +1022,7 @@ process.on("uncaughtException", function(e) {
 // handle server events
 server.on("error", function(err) {
     if (err.errno == "EADDRINUSE") {
-        exec("killall gdb-multiarch"); // kill any hanging instances of gdb
+        exec("pkill gdb-multiarch"); // kill any hanging instances of gdb
         console.log("It looks like the debugger is already in use!");
         console.log("Try stopping the existing instance first.");
     }
