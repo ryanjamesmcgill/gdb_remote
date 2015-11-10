@@ -1,7 +1,8 @@
 /**
- * GDB Debugger plugin for Cloud9
+ * GDB Debugger plugin for Cloud9 modified for remote debugging.
  *
  * @author Dan Armendariz <danallan AT cs DOT harvard DOT edu>
+ * @author (gdb_remote) Ryan McGill <ryanjamesmcgill AT gmail DOT com>
  */
 define(function(require, exports, module) {
     main.consumes = [
