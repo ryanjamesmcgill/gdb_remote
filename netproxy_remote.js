@@ -257,7 +257,7 @@ function GDB() {
         // ask GDB to retry connections to server with a given timeout
         this.issue("set tcp connect-timeout", MAX_RETRY, function() {
             // now connect
-            this.issue("-target-select", "remote localhost:"+gdb_port, function(reply) {
+            this.issue("-target-select", "remote "+target_ip+":"+gdb_port, function(reply) {
             //this.issue("-target-select", "remote 45.55.234.93:12345", function(reply) {
                 if (reply.state != "connected")
                     return callback(reply, "Cannot connect to gdbserver");
