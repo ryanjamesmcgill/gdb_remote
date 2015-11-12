@@ -1,8 +1,8 @@
 {
   "name": "gdb_remote",
-  "description": "Debugger and compiler for embedded linux develoment.",
+  "description": "Gdb remote debugger implementation, ideal for embedded linux development.",
   "version": "0.0.1",
-  "author": "",
+  "author": "Ryan McGill",
   "contributors": [
     {
       "name": "Ryan McGill",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/ryanjamesmcgill/gdb_remote.git"
   },
   "plugins": {
     "gdb_remote": {}
