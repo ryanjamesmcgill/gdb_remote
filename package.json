@@ -1,9 +1,9 @@
 {
   "name": "gdb_remote",
   "description": "Debugger and compiler for embedded linux develoment.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "engines": {
-    "c9":">=3.0.0"
+    "c9": ">=3.0.0"
   },
   "author": "Ryan McGill",
   "contributors": [
@@ -17,8 +17,15 @@
     "url": "https://github.com/ryanjamesmcgill/gdb_remote.git"
   },
   "plugins": {
-    "gdb_remote": {}
+    "gdb_remote": {
+      "packagePath": "plugins/gdb_remote/gdb_remote"
+    }
   },
-  "categories": ["miscellaneous"],
-  "licenses": ["MIT"]
+  "categories": [
+    "miscellaneous"
+  ],
+  "licenses": [
+    "MIT"
+  ],
+  "permissions": "world"
 }
