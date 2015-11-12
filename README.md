@@ -1,4 +1,4 @@
-Debugger and compiler for embedded linux develoment.
+Remote gdb debugger implemntation, extended from CS50 IDE
 
 <a target="_blank" href="https://get.c9.io/">Cloud9 IDE</a> plugin for remote debugging. Ideal for embedded linux development on devices such as the Raspberry Pi or Beagle Bone. Currently in development stage with <a target="_blank" href="https://cloud9-sdk.readme.io/v0.1/docs">Cloud9 SDK</a> 
 

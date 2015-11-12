@@ -1,6 +1,6 @@
-{
+ls{
   "name": "gdb_remote",
-  "description": "Debugger and compiler for embedded linux develoment.",
+  "description": "Remote gdb debugger implemntation, extended from CS50 IDE",
   "version": "0.0.1",
   "engines": {
     "c9": ">=3.0.0"
