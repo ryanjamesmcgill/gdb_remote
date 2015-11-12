@@ -980,15 +980,6 @@ setTimeout(function(){
     });
 },1000);
 
-/*gdb.waitConnect(function(reply, err) {
-    if (err) {
-        log(err);
-        process.exit();
-    }
-    start();
-});*/
-
-
 // handle process events
 // pass along SIGINT to suspend gdb, only if program is running
 process.on('SIGINT', function() {
