@@ -1,4 +1,4 @@
-ls{
+{
   "name": "gdb_remote",
   "description": "Remote gdb debugger implemntation, extended from CS50 IDE",
   "version": "0.0.1",
