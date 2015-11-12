@@ -1,7 +1,10 @@
 {
   "name": "gdb_remote",
-  "description": "Gdb remote debugger implementation, ideal for embedded linux development.",
-  "version": "0.0.1",
+  "description": "Debugger and compiler for embedded linux develoment.",
+  "version": "0.0.0",
+  "engines": {
+    "c9":">=3.0.0"
+  },
   "author": "Ryan McGill",
   "contributors": [
     {
@@ -17,5 +20,5 @@
     "gdb_remote": {}
   },
   "categories": ["miscellaneous"],
-  "licenses": []
+  "licenses": ["MIT"]
 }
